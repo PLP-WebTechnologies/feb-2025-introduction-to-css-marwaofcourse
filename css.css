@@ -1,0 +1,50 @@
+/* Universal styles */
+body {
+    font-family: Arial, sans-serif; /* Default font */
+    background-color: #f4f4f4; /* Background color */
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50; /* Green background */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Section with class "content" */
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Styling for the paragraph with ID "description" */
+#description {
+    font-size: 18px;
+    color: #555; /* Dark gray for description */
+}
+
+/* Styling for the image with ID "image" */
+#image {
+    width: 100%;
+    max-width: 300px; /* Restrict the max width */
+    border: 5px solid #333; /* Add a border around the image */
+    border-radius: 10px; /* Round the corners of the image */
+    margin-top: 20px; /* Space above the image */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
